@@ -1,0 +1,12 @@
+{
+  "name": "RWD-Consumer",
+  "version": "0.1.0",
+  "author": "Katie Harron",
+  "private": true,
+  "devDependencies": {
+    "grunt": "~0.4.1",
+    "grunt-contrib-imagemin": "~0.3.0",
+    "grunt-contrib-watch": "latest",
+    "grunt-contrib-less": "~0.8.1"
+  }
+}

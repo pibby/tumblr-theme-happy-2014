@@ -1,0 +1,215 @@
+body,
+div,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+th,
+td,
+article,
+aside,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+html {
+  font-size: 100%;
+  height: 100%;
+}
+body {
+  font-size: 100%;
+  min-height: 100%;
+}
+a img,
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+::selection {
+  background: #8c1f40;
+  color: white;
+}
+::-moz-selection {
+  background: #8c1f40;
+  color: white;
+}
+::-webkit-selection {
+  background: #8c1f40;
+  color: white;
+}
+img::selection {
+  background: transparent;
+}
+img::-moz-selection {
+  background: transparent;
+}
+body {
+  -webkit-tap-highlight-color: rgba(18, 52, 86, 0.1);
+}
+/* MICRO CLEARFIX HACK */
+.cf:before,
+.cf:after {
+  content: " ";
+  display: table;
+  /* For modern browsers */
+}
+.cf:after {
+  clear: both;
+}
+.cf {
+  *zoom: 1;
+  /* For IE 6/7 (trigger hasLayout) */
+}
+/* MEDIA */
+figure {
+  margin: 0;
+}
+/* Fluid images */
+img,
+object {
+  height: auto;
+  max-width: 100%;
+  _width: 100%;
+}
+/* Improve IE's resizing of images */
+img {
+  -ms-interpolation-mode: bicubic;
+  border: 0;
+}
+/* responsive videos */
+.video figure {
+  height: 0;
+  nowhitespace: afterproperty;
+  overflow: hidden;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+.video iframe,
+.video object,
+.video embed {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+/* apply a natural box layout model to all elements */
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+a {
+  color: #c42b59;
+  text-decoration: none;
+  transition: all 0.3s ease-out;
+}
+a:hover {
+  color: #8c1f40;
+}
+a:active {
+  color: #c42b59;
+}
+a:visited {
+  color: #e07495;
+}
+a:focus {
+  outline: thin dotted;
+}
+a:hover,
+a:active {
+  outline: none;
+}
+/* Better CSS Outline Suppression */
+body {
+  background: #fff;
+  color: #000;
+  font: 100%/150% Arial, Helvetica, Verdana, sans-serif;
+}
+/* body::before{ content: "No media query (0-600px) fired"; font-weight: bold; display: block; text-align: center; background: rgba(255,255,0, 0.9); position: absolute; top: 0; left: 0; right: 0; z-index: 99; } */
+@font-face {
+  font-family: 'InterstateLight';
+  src: url('Interstate-Light/e9258aa9-8d38-4395-b7e7-e18df29986f1-2.eot');
+  src: url('Interstate-Light/e9258aa9-8d38-4395-b7e7-e18df29986f1-2.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+   url('Interstate-Light/e9258aa9-8d38-4395-b7e7-e18df29986f1-3.woff') format('woff'), /* Modern Browsers */
+   url('Interstate-Light/e9258aa9-8d38-4395-b7e7-e18df29986f1-1.ttf') format('truetype'), /* Safari, Android, iOS */
+   url('Interstate-Light/e9258aa9-8d38-4395-b7e7-e18df29986f1-4.svg#InterstateLight') format('svg');
+  font-weight: normal;/* IE9 Compat Modes */
+  /* Legacy iOS */
+}
+.wrapper {
+  margin: auto;
+  max-width: 37.5em;
+  padding: 0 1.25em;
+  width: 100%;
+}
+/* TINY 480px+
+@media only screen and (min-width: 30em) {
+  body::before {
+    background: rgba(255,255,0, 0.9);
+    content: "Tiny media query (480+) fired";
+    display: block;
+    font-weight: bold;
+    left: 0;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: 0;
+    z-index: 99;
+  }
+
+  .wrapper { max-width: 37.5em; }
+  
+}*/
+/* SMALL 600px+ */
+@media only screen and (min-width: 37.5em) {
+  /* body::before { content: "Small media query (600+) fired"; font-weight: bold; display: block; text-align: center; background: rgba(255,255,0, 0.9); position: absolute; top: 0; left: 0; right: 0; z-index: 99; } */
+  .wrapper {
+    max-width: 48em;
+  }
+}
+/* MEDIUM 768px+ */
+@media only screen and (min-width: 48em) {
+  /* body::before { content: "Medium media query (768+) fired"; font-weight: bold; display: block; text-align: center; background: rgba(255,255,0, 0.9); position: absolute; top: 0; left: 0; right: 0; z-index: 99; } */
+  .wrapper {
+    max-width: 60em;
+  }
+}
+/* Large 960px+ */
+@media only screen and (min-width: 60em) {
+  /* body::before { content: "Large media query (960+) fired"; font-weight: bold; display: block; text-align: center; background: rgba(255,255,0, 0.9); position: absolute; top: 0; left: 0; right: 0; z-index: 99; } */
+  .wrapper {
+    max-width: 71.25em;
+  }
+}
+/* Giant 1140px - 1440px */
+@media only screen and (min-width: 71.25em) {
+  /* body::before { content: "Giant media query (1140+) fired"; font-weight: bold; display: block; text-align: center; background: rgba(255,255,0, 0.9); position: absolute; top: 0; left: 0; right: 0; z-index: 99; } */
+  .wrapper {
+    max-width: 90em;
+  }
+}

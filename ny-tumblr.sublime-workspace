@@ -1,0 +1,636 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"inlin",
+				"inline-block"
+			],
+			[
+				"wid",
+				"width"
+			],
+			[
+				"mo",
+				"angular.module"
+			],
+			[
+				"$routePr",
+				"angular: $routeProvider"
+			],
+			[
+				"Simpl",
+				"SimpleController"
+			],
+			[
+				"font-",
+				"font-size"
+			],
+			[
+				"list-s",
+				"list-style"
+			],
+			[
+				"paddi",
+				"padding-top"
+			],
+			[
+				"z-",
+				"z-index"
+			],
+			[
+				"bl",
+				"block"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"i",
+				"italic"
+			],
+			[
+				"text",
+				"text-align"
+			],
+			[
+				"border-r",
+				"border-right"
+			],
+			[
+				"pre",
+				"pre-wrap"
+			],
+			[
+				"bo",
+				"border"
+			],
+			[
+				"font-s",
+				"font-style"
+			],
+			[
+				"text-",
+				"text-align"
+			],
+			[
+				"ls",
+				"letter-spacing"
+			],
+			[
+				"backg",
+				"background"
+			],
+			[
+				"di",
+				"display"
+			],
+			[
+				"pos",
+				"position"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "index.html",
+			"settings":
+			{
+				"buffer_size": 10148,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "css/default.less",
+			"settings":
+			{
+				"buffer_size": 11984,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "js/scripts.js",
+			"settings":
+			{
+				"buffer_size": 252,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "/Users/katie/Desktop/todo.md",
+			"settings":
+			{
+				"buffer_size": 547,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 27.0,
+		"selected_items":
+		[
+			[
+				"open",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"remove",
+				"Package Control: Remove Package"
+			],
+			[
+				"inst",
+				"Package Control: Install Package"
+			],
+			[
+				"insta",
+				"Package Control: Install Package"
+			],
+			[
+				"live",
+				"File: Open In Browser - Production Server"
+			],
+			[
+				"preview",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"Snippet: ",
+				"Snippet: MD_highlight code"
+			],
+			[
+				"remo",
+				"Package Control: Remove Package"
+			],
+			[
+				"mark",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"markd",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"in",
+				"Package Control: Install Package"
+			],
+			[
+				"ins",
+				"Package Control: Install Package"
+			],
+			[
+				"remov",
+				"Package Control: Remove Package"
+			],
+			[
+				"ma",
+				"Markdown Preview: Github Flavored Markdown: Preview in Browser"
+			],
+			[
+				"markdow",
+				"Markdown Preview: Python Markdown: Preview in Browser"
+			],
+			[
+				"Package Control: in	",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 601.0
+	},
+	"console":
+	{
+		"height": 125.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/katie/Sites/new-tumblr/index.html",
+		"/Users/katie/Desktop/new-year_tumblr-theme/js/javascript.js",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown (Standard).sublime-settings",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/MarkdownEditing/Markdown.sublime-settings",
+		"/Users/katie/Desktop/gary-julies_mad-world.txt",
+		"/Users/katie/Desktop/Susie Klinck - Peaxy.md",
+		"/Users/katie/Desktop/bookmarks_12_3_13.html",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/Package Control.sublime-settings",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/katie/Desktop/angular/best-practices.html",
+		"/Users/katie/Desktop/angular/view2.html",
+		"/Users/katie/Desktop/angular/view1.html",
+		"/Users/katie/Desktop/angular/routes.html",
+		"/Users/katie/Desktop/angular/index.html",
+		"/Users/katie/Desktop/angular/factories.html",
+		"/Users/katie/Desktop/angular/module.html",
+		"/Users/katie/Desktop/AngularJSDemos/AngularJSDemos/DemoList.html",
+		"/Users/katie/Desktop/AngularJSDemos/AngularJSDemos/DemoPartials/7. Adding Module Configuration and Routing.html",
+		"/Users/katie/Sites/katieharron/Gemfile",
+		"/Users/katie/Sites/katieharron/Procfile",
+		"/Users/katie/Sites/katieharron/config.ru",
+		"/Users/katie/rsync-bitcasa.sh",
+		"/Users/katie/rsync-bitcasa.txt",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-13-front-end-tools-to-improve-your-workflow-1.md",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/Markdown.sublime-settings",
+		"/Users/katie/Sites/katieharron/Gruntfile.js",
+		"/Users/katie/Sites/katieharron/package.json",
+		"/Users/katie/Sites/katieharron/assets/css/style.less",
+		"/Users/katie/Scripts/draft.sh",
+		"/Users/katie/Scripts/post.sh",
+		"/Users/katie/Scripts/btw.sh",
+		"/Users/katie/Sites/katieharron/assets/css/style.css",
+		"/Users/katie/Sites/katieharron/assets/css/style.min.css",
+		"/Users/katie/Sites/katieharron/_config.yml",
+		"/Users/katie/Sites/katieharron/npm-debug.log",
+		"/Volumes/Bitcasa Infinite Drive/Flatland Dark.tmTheme",
+		"/Users/katie/Sites/katieharron/unicorn.rb",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-28-an-introduction-to-responsive-web-design.md",
+		"/Users/katie/Sites/katieharron/404.html",
+		"/Users/katie/Sites/katieharron/about.md",
+		"/Users/katie/Sites/katieharron/disclaimer.md",
+		"/Users/katie/Sites/katieharron/articles.html",
+		"/Users/katie/Sites/katieharron/index.html",
+		"/Users/katie/Sites/katieharron/jekyll-youtube-plugin.md",
+		"/Users/katie/Sites/katieharron/resources.md",
+		"/Users/katie/Sites/katieharron/tags.html",
+		"/Users/katie/Sites/katieharron/_includes/footer.html",
+		"/Users/katie/Sites/katieharron/_includes/header.html",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-22-an-introduction-to-responsive-web-design.md",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-20-building-your-first-responsive-page.md",
+		"/Users/katie/Sites/katieharron/_layouts/home.html",
+		"/Users/katie/Sites/katieharron/_layouts/tag-archive.html",
+		"/Users/katie/Desktop/page-traverse/index.php",
+		"/Users/katie/Desktop/page-traverse/traverse.sh",
+		"/Users/katie/Desktop/page-traverse/index.html",
+		"/Users/katie/Desktop/page-traverse/romantic-ulterior-motives+final.html",
+		"/Users/katie/Desktop/page-traverse/romantic-ulterior-motive+final.html",
+		"/Users/katie/Desktop/page-traverse/make-a-wish.html",
+		"/Users/katie/Downloads/download",
+		"/Users/katie/Desktop/page-traverse/story.html",
+		"/Users/katie/Desktop/page-traverse/2.html",
+		"/Users/katie/Desktop/page-traverse/1.html",
+		"/Users/katie/Desktop/page-traverse/test.html",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-15-front-end-tools-to-improve-your-workflow-2.md",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-16-front-end-tools-to-improve-your-workflow-2.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-11-resources-for-learning-html-and-css.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-building-your-first-page-in-html5.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-06-a-brief-introduction-to-html-5.md",
+		"/Users/katie/Sites/katieharron/feed.xml",
+		"/Users/katie/Sites/katieharron/first-page-sample.html",
+		"/Users/katie/Sites/katieharron/sitemap.xml",
+		"/Users/katie/Sites/katieharron/_layouts/post.html",
+		"/Users/katie/Sites/katieharron/_layouts/page.html",
+		"/Users/katie/Sites/Tumblr-Themes/Theme RP/pibby-theme-rp.css",
+		"/Users/katie/Sites/tumblr-theme-rp/css/frameless.less",
+		"/Users/katie/Sites/tumblr-theme-rp/css/pibby-theme-rp.css",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-13-front-end-tools-to-improve-your-workflow.md",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-16-front-end-tools-to-improve-your-workflow-part-2.md",
+		"/Users/katie/Sites/katieharron/_plugins/reading_time.rb",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-13-front-end-tools-to-improve-your-workflow.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-16-front-end-tools-to-improve-your-workflow-part-2.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-12-front-end-tools-to-improve-your-workflow.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-12-front-end-tools-to-improve-your-workflow---part-2.md",
+		"/Users/katie/Sites/repos/boilerplate/index.html",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-11-front-end-tools-to-improve-your-workflow.md",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-11-recommended-software-and-front-end-tools.md",
+		"/Users/katie/Sites/repos/boilerplate/css/style.css",
+		"/Users/katie/Sites/katieharron/boilerplate/index.html",
+		"/Users/katie/Sites/katieharron/_site/articles/building-your-first-page-in-html5/index.html",
+		"/Users/katie/Sites/katieharron/_site/articles/a-brief-introduction-to-html-5/index.html",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-11-recomended-software-and-front-end-tools.md",
+		"/Users/katie/Sites/katieharron/_drafts/2013-10-11-recomended-software-and-front-end-tols.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-11-resources-for-learning-html-and-cs.md",
+		"/Users/katie/Desktop/todo.md",
+		"/Users/katie/Sites/katieharron/assets/js/scripts.js",
+		"/Users/katie/Downloads/fontello-e0007daf/css/buildtheweb-embedded.css",
+		"/Users/katie/Downloads/Invisible Monsters - Chuck Palahniuk.txt",
+		"/Users/katie/Calibre Library/Chuck Palahniuk/Invisible Monsters (2059)/Invisible Monsters - Chuck Palahniuk.epub",
+		"/Users/katie/Downloads/fontello-e1135478/css/buildtheweb-embedded.css",
+		"/Users/katie/new-post.sh",
+		"/Users/katie/btw.sh",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-a-test-post.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-A-Test-Post.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-A-,,Test-,,Post.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-A-test-post.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-A.Test.Post.md",
+		"/Users/katie/Sites/katieharron/_posts/2013-10-09-test.md",
+		"/Users/katie/Sites/katieharron/_posts/-creating-our-first-html5-page.md",
+		"/Users/katie/Sites/katieharron/_posts/date",
+		"/Users/katie/+%Y-%m-%d-creating-our-first-html5-page.md",
+		"/Users/katie/Library/Application Support/com.bitcasa.Bitcasa/Data/fp_e9d4c739-adf1-4128-9baf-052bf7b54b00.cfg",
+		"/Users/katie/Sites/katieharron/.git/config",
+		"/Users/katie/Sites/katieharron/Gemfile.lock",
+		"/Users/katie/Sites/katieharron/_plugins/image_tag.rb",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/snippets/MD_YAML-Front-Matter.sublime-snippet",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/Flatland Dark.tmTheme",
+		"/Users/katie/Sites/github/jekyll-youtube/README.md",
+		"/Users/katie/Sites/katieharron/_plugins/youtube.rb",
+		"/Users/katie/Desktop/flatlanddark.py",
+		"/Users/katie/Downloads/owncloud/apps/files_texteditor/js/aceeditor/theme-github.js",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/snippets/MD_highlight code.sublime-snippet",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/User/snippet_MD-highlight.sublime-snippet",
+		"/Users/katie/Sites/katieharron/_posts/2013-09-28-shorter-test-post.md",
+		"/private/var/folders/2k/bhyf9pcx3qx7rlswh_rsg3fm0000gp/T/33.html",
+		"/private/var/folders/2k/bhyf9pcx3qx7rlswh_rsg3fm0000gp/T/211.html",
+		"/Users/katie/Library/Application Support/Sublime Text 2/Packages/Markdown Preview/MarkdownPreview.sublime-settings",
+		"/Users/katie/Sites/katieharron/_posts/2013-09-27-test-post.md"
+	],
+	"find":
+	{
+		"height": 37.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"0",
+			"5",
+			"20",
+			"5",
+			"12",
+			"20",
+			"10",
+			"padding",
+			"p",
+			"line-height",
+			"0",
+			"document.getElementById(target).style.display",
+			"none",
+			"loginTable",
+			"filter.",
+			"echo \"----------\"",
+			"Music",
+			"public/",
+			"rotate",
+			"release",
+			"build",
+			"assets/",
+			"compressed/",
+			"project-directory",
+			"-device",
+			"story",
+			"panel_error",
+			"y",
+			"story",
+			"page.",
+			"page",
+			"div",
+			" (Free, Online)",
+			"(Free)",
+			"section",
+			"lighten",
+			"&",
+			"5",
+			"&",
+			"-open-1",
+			"padding",
+			"[0]",
+			"http://katieharron.herokuapp.com",
+			"about",
+			"wife",
+			"tumblr",
+			"&& ",
+			"\\n",
+			"posttitle",
+			"wg",
+			"org",
+			"^",
+			"post",
+			" class=\"tag\"",
+			"page",
+			"Newer",
+			"lArr",
+			"section",
+			"articles",
+			"/tags/",
+			"tags",
+			" class=\"btn\"",
+			"</span>",
+			"<span>",
+			"/span>",
+			"<span>",
+			" class=\"tag\"",
+			"page",
+			"120",
+			"pre",
+			"u",
+			" .sans;",
+			"50",
+			"Sbold",
+			"fonts",
+			"http://tumblr.pibby.com/",
+			",.post,.footer",
+			".wrapper",
+			"section"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 0,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "index.html",
+					"settings":
+					{
+						"buffer_size": 10148,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8315,
+								8315
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/HTML/HTML.tmLanguage",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 2560.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "css/default.less",
+					"settings":
+					{
+						"buffer_size": 11984,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								8046,
+								8046
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/LESS/LESS.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3977.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "js/scripts.js",
+					"settings":
+					{
+						"buffer_size": 252,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								252,
+								252
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true,
+							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "/Users/katie/Desktop/todo.md",
+					"settings":
+					{
+						"buffer_size": 547,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								197,
+								197
+							]
+						],
+						"settings":
+						{
+							"is_xml": false,
+							"syntax": "Packages/Markdown/Markdown.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 33.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"replace":
+	{
+		"height": 0.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": false,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": false,
+	"side_bar_width": 150.0,
+	"status_bar_visible": true
+}
