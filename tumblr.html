@@ -11,12 +11,21 @@ Created: by Katie Harron (pibby.tumblr.com)
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="google-site-verification" content="FHh8JF6YWHjdPlHRAAUz6MQQzrj9Ux7f_ZxzhD2obJ4">
 	<meta name="keywords" content="{Text:Meta keywords},{block:TagPage}{Tag}, {/block:TagPage} {block:Permalink}{block:Posts}{block:Tags}{Tag}, {/block:Tags} {/block:Posts}{/block:Permalink}">
 	{block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
 	<meta name="title" content="{block:SearchPage}Search results for: {SearchQuery}{/block:SearchPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}{block:PostTitle}{PostTitle} - {/block:PostTitle}{Title}">
 	<meta name="generator" content="Katie Harron (pibby.com)">
 	<meta name="author" content="Katie Harron (pibby.com)">
+	<meta name="text:Meta keywords" content="katie harron,front-end web developer">
+	<meta name="text:Logo Image Alt Text" content="Katie Harron - Front-end Web Developer, Arlington, TX">
+	<meta name="text:Banner button 1 Text" content="Source code of this theme">
+	<meta name="text:Banner button 1 Link" content="">
+	<meta name="text:Banner button 2 Text" content="Comments or questions?">
+	<meta name="text:Banner button 2 Link" content="/ask">
+	<meta name="text:Search Heading" content="Looking for something?">
+	<meta name="text:Text under Search" content="">
+	<meta name="text:Social Heading" content="Find me elsewhere">
+	<meta name="text:Text under Social" content="">
 	<meta name="text:Pinterest Username" content="pibbydotcom">
 	<meta name="text:LastFM Username" content="pibby">
 	<meta name="text:Twitter Username" content="pibby">
@@ -24,14 +33,11 @@ Created: by Katie Harron (pibby.tumblr.com)
 	<meta name="text:Google Plus Username" content="KatieHarron">
 	<meta name="text:LinkedIn Username" content="pibby">
 	<meta name="text:Instagram Username" content="pibby">
-	<meta name="text:Search Heading" content="Looking for something?">
-	<meta name="text:Text under Search" content="">
-	<meta name="text:Meta keywords" content="katie harron,front-end web developer">
-	<meta name="text:Social Heading" content="Find me elsewhere">
-	<meta name="text:Text under Social" content="">
-
 	<meta name="text:Google Analytics ID" content="UA-292561-1">
-    <meta name="p:domain_verify" content="b23cd7d3ea8ff6a6de079a1c31b8486c"/>
+	<meta name="text:Google Site Verification" content="FHh8JF6YWHjdPlHRAAUz6MQQzrj9Ux7f_ZxzhD2obJ4">
+	{block:IfGoogleSiteVerification}<meta name="google-site-verification" content="{text:Google Site Verification}">{/block:IfGoogleSiteVerification}
+	<meta name="text:Pinterest Site Verification" content="b23cd7d3ea8ff6a6de079a1c31b8486c">
+    {block:IfPinterestSiteVerification}<meta name="p:domain_verify" content="{text:Pinterest Site Verification}"/>{/block:IfPinterestSiteVerification}
 
 	<title>{block:PostSummary}{PostSummary} | {/block:PostSummary}{block:SearchPage}{lang:Search results for SearchQuery} | {/block:SearchPage}{block:TagPage}{Tag} | {/block:TagPage}{block:DayPage}{lang:Posted on DayOfMonth Month Year} | {/block:DayPage}{Title}</title>
 
@@ -57,7 +63,7 @@ Created: by Katie Harron (pibby.tumblr.com)
 		<script src="http://static.tumblr.com/ysbclnq/JSkmylhv3/respond.min.js"></script>
 	<![endif]-->
 
-	<link rel="stylesheet" href="http://static.tumblr.com/ysbclnq/14Imylyc5/style.css">
+	<link rel="stylesheet" href="http://static.tumblr.com/ysbclnq/FNrmyn58y/style.css">
 
 	<!-- custom CSS -->
     <style>
@@ -70,7 +76,7 @@ Created: by Katie Harron (pibby.tumblr.com)
 
 <nav id="navigation">
 	<div class="wrapper cf">
-		<h2 id="logo"><a href="/" rel="home"><img src="{PortraitURL-48}" alt="Katie Harron - Front-end Web Developer, Arlington, TX" /> Katie Harron</a></h2>
+		<h2 id="logo"><a href="/" rel="home"><img src="{PortraitURL-48}" alt="{text:Logo Image Alt Text}" /> {Title}</a></h2>
 		<a id="mobilenav" href="javascript;;"><i class="icon-menu"></i> {lang:Navigate}</a>
 		<ul id="nav">
 			<li><a href="/" rel="home">{lang:Home}</a></li>
@@ -87,10 +93,10 @@ Created: by Katie Harron (pibby.tumblr.com)
 		<div class="intro">
 			{block:Description}<p>{Description}</p>{/block:Description}
 
-			<ul class="cta">
-				<li><a href="">Source code of this theme</a></li> <!-- TODO -->
-				<li><a href="/ask">Comments or Questions?</a></li>
-			</ul>
+			{block:IfBannerbutton1text}<ul class="cta">
+				<li><a href="{text:Banner button 1 Link}">{text:Banner button 1 Text}</a></li>
+				{block:IfBannerbutton2text}<li><a href="{text:Banner button 2 Link}">{text:Banner button 2 Text}</a></li>{block:IfBannerbutton2text}
+			</ul>{/block:IfBannerbutton1text}
 		</div>
 	</div>
 </header>
@@ -146,7 +152,7 @@ Created: by Katie Harron (pibby.tumblr.com)
 
 	{block:Video}
 		<div class="video">
-			<figure>
+			<figure class="post-video">
 				{VideoEmbed-500}
 			</figure>
 		</div>
@@ -191,7 +197,7 @@ Created: by Katie Harron (pibby.tumblr.com)
 	{/block:Link}
 
 	{block:Audio}
-		<figure>
+		<figure class="post-audio">
 			{AudioPlayerBlack}
 		</figure>
 
@@ -204,20 +210,24 @@ Created: by Katie Harron (pibby.tumblr.com)
 	{/block:Audio}
 
 	{block:Photo}
-		<figure>
-			{LinkOpenTag}<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" alt="{PhotoAlt}" />{LinkCloseTag}
+		<figure class="post-photo">
+			<a href="{PhotoURL-HighRes}"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" alt="{PhotoAlt}" /></a>
+			<!-- Fallback for non JavaScript browsers -->
+			<noscript><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></noscript>
 		</figure>
 
 		<div class="post-inner">
 			{block:Title}<h1><a href="{Permalink}" rel="bookmark">{Title}</a></h1>{/block:Title}
 			{block:Caption}{Caption}{/block:Caption}
-			{block:HighRes}<p><a href="{PhotoURL-HighRes}">{lang:Click for high-res photo}</a></p>{/block:HighRes}
+			{block:HighRes}<p><a href="{PhotoURL-HighRes}" title="{lang:Click for high-res photo}">{lang:Click for high-res photo}</a></p>{/block:HighRes}
 			{block:More}<p><a href="{Permalink}" class="read-more">{lang:Read more}</a></p>{/block:More}
 	{/block:Photo}
 
 	{block:Panorama}
-		<figure>
-			{LinkOpenTag}<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
+		<figure class="post-panorama">
+			<a href="{PhotoURL-Panorama}"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-Panorama}" alt="{PhotoAlt}" /></a>
+			<!-- Fallback for non JavaScript browsers -->
+			<noscript><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></noscript>
 		</figure>
 
 		<div class="post-inner">
@@ -227,24 +237,13 @@ Created: by Katie Harron (pibby.tumblr.com)
 	{/block:Panorama}
 
 	{block:Photoset}
-		<figure>
-			<div class="photo-slideshow" id="photoset_{PostID}" data-layout="{PhotosetLayout}">
-
-			  {block:Photos}
-			    <div class="photo-data">
-			      <div class="pxu-photo">
-			        <img alt="{PhotoAlt}" src="{PhotoURL-500}" width="{PhotoWidth-500}" height="{PhotoHeight-500}" data-highres="{PhotoURL-HighRes}" data-width="{PhotoWidth-HighRes}" data-height="{PhotoHeight-HighRes}" class="{block:Exif}exif-yes {/block:Exif}{block:Caption}caption-yes{/block:Caption}" {block:Exif}data-camera="{block:Camera}{Camera}{/block:Camera}" data-iso="{block:ISO}{ISO}{/block:ISO}" data-aperture="{block:Aperture}{Aperture}{/block:Aperture}" data-exposure="{block:Exposure}{Exposure}{/block:Exposure}" data-focal="{block:FocalLength}{FocalLength}{/block:FocalLength}"{/block:Exif} {block:Caption}data-caption="{Caption}"{/block:Caption}>
-			      </div>
-			      <div class="icons">
-			        <a class="tumblr-box" rel="post-{PostID}" href="{PhotoURL-HighRes}">
-			          <span class="zoom">Zoom</span>
-			        </a>
-			        <span class="info">Info</span>
-			      </div>
-			    </div>
-			  {/block:Photos}
-
-			</div><!-- close SLIDESHOW -->
+		<figure class="post-photoset">
+			<div class="photoset-grid" data-layout="{PhotosetLayout}" data-id="photoset{PostID}">
+		    {block:Photos}
+		      <a href="{PhotoURL-HighRes}"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" {block:Caption}alt="{Caption}"{/block:caption} /></a>
+		      <!-- Fallback for non JavaScript browsers -->
+		      <noscript><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></noscript>
+		    {/block:Photos}
 		  </div>
 		</figure>
 
@@ -304,17 +303,20 @@ Created: by Katie Harron (pibby.tumblr.com)
 <footer id="footer" role="contentinfo">
 	<div class="wrapper cf">
 		<section class="footer-content">
-			<h4>Looking for something?</h4>
+			<h4>{text:Search Heading}</h4>
 			<div id="search">
 				<form action="/search" method="get">
 		        	<input type="text" name="q" value="{SearchQuery}" placeholder="{lang:Search} &amp; press enter" />
 	            </form>
 			</div>
+			<!-- you'll probably want to remove this P tag -->
 			<p>You can also view posts <a href="/tag-cloud">by tag</a> or comb through the <a href="/archive">archive</a>.</p>
+
+			{block:IfTextunderSearch}<p>{text:Text under Search}</p>{/block:IfTextunderSearch}
 		</section>
 		<section class="footer-content">
-			<h4>Find me elsewhere</h4>
-			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad, nulla, unde, soluta vitae incidunt in explicabo eaque reiciendis quo assumenda nihil ipsum obcaecati veniam suscipit aperiam vel culpa dolorem tempora.</p>
+			<h4>{text:Social Heading}</h4>
+			{block:IfTextunderSocial}<p>{text:Text under Social}</p>{/block:IfTextunderSocial}
 			<ul class="social">
 				{block:IfTwitterUsername}<li><a href="http://www.twitter.com/{text:Twitter Username}" title="Twitter" rel="me external"><i class="icon-twitter"></i></a></li>{/block:IfTwitterUsername}
 				{block:IfFacebookUsername}<li><a href="http://www.facebook.com/{text:Facebook Username}" title="Facebook" rel="me external"><i class="icon-facebook"></i></a></li>{/block:IfFacebookUsername}
@@ -326,14 +328,14 @@ Created: by Katie Harron (pibby.tumblr.com)
 			</ul>
 		</section>
 
-		<p class="copyright">&copy; {CopyrightYears} {Name} | Theme created by <a href="http://www.pibby.com" title="Theme created by Katie Harron (pibby.com)">Katie Harron</a> | {lang:Powered by Tumblr 2}</p>
+		<p class="copyright">&copy; {CopyrightYears} {Name} | Theme created by <a href="http://www.pibby.com" title="Katie Harron (pibby.com)">Katie Harron</a> | {lang:Powered by Tumblr 2}</p>
 	</div>
 </footer>
 
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="http://static.tumblr.com/ysbclnq/KLBmylomj/jquery.min.js"><\/script>')</script>
-<script src="http://static.tumblr.com/ysbclnq/P0nmylyba/scripts.js"></script>
+<script src="http://static.tumblr.com/ysbclnq/Wrymyn58c/scripts.js"></script>
 
 <!-- Google Analytics -->
 {block:IfGoogleAnalyticsID}
@@ -358,6 +360,7 @@ Created: by Katie Harron (pibby.tumblr.com)
 {/block:IfGoogleAnalyticsID}
 <!-- /Google Analytics -->
 
+<!-- Please remove this if using the theme -->
 <!-- Crazy Egg tracking -->
 <script>
 setTimeout(function(){var a=document.createElement("script");

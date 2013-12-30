@@ -99,7 +99,7 @@
 			"file": "index.html",
 			"settings":
 			{
-				"buffer_size": 10148,
+				"buffer_size": 17008,
 				"line_ending": "Unix"
 			}
 		},
@@ -107,7 +107,7 @@
 			"file": "css/default.less",
 			"settings":
 			{
-				"buffer_size": 11984,
+				"buffer_size": 31466,
 				"line_ending": "Unix"
 			}
 		},
@@ -115,7 +115,7 @@
 			"file": "js/scripts.js",
 			"settings":
 			{
-				"buffer_size": 252,
+				"buffer_size": 10368,
 				"line_ending": "Unix"
 			}
 		},
@@ -465,15 +465,15 @@
 					"file": "index.html",
 					"settings":
 					{
-						"buffer_size": 10148,
+						"buffer_size": 17008,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8315,
-								8315
+								0,
+								0
 							]
 						],
 						"settings":
@@ -483,7 +483,7 @@
 							"translate_tabs_to_spaces": false
 						},
 						"translation.x": 0.0,
-						"translation.y": 2560.0,
+						"translation.y": 2590.0,
 						"zoom_level": 1.0
 					},
 					"type": "text"
@@ -493,15 +493,15 @@
 					"file": "css/default.less",
 					"settings":
 					{
-						"buffer_size": 11984,
+						"buffer_size": 31466,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								8046,
-								8046
+								0,
+								0
 							]
 						],
 						"settings":
@@ -521,21 +521,21 @@
 					"file": "js/scripts.js",
 					"settings":
 					{
-						"buffer_size": 252,
+						"buffer_size": 10368,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								252,
-								252
+								0,
+								0
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.tmLanguage",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true,
 							"word_separators": "./\\\\()\\\"\\'-:,.;<>~!@#%^&*|+=[]{}`~?"
 						},
@@ -630,7 +630,7 @@
 	"show_minimap": false,
 	"show_open_files": false,
 	"show_tabs": true,
-	"side_bar_visible": false,
+	"side_bar_visible": true,
 	"side_bar_width": 150.0,
 	"status_bar_visible": true
 }
