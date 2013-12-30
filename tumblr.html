@@ -11,7 +11,7 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 	<meta charset="utf-8">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<meta name="keywords" content="{Text:Meta keywords},{block:TagPage}{Tag}, {/block:TagPage} {block:Permalink}{block:Posts}{block:Tags}{Tag}, {/block:Tags} {/block:Posts}{/block:Permalink}">
+	<meta name="keywords" content="{block:TagPage}{Tag}, {/block:TagPage} {block:Permalink}{block:Posts}{block:Tags}{Tag}, {/block:Tags} {/block:Posts}{/block:Permalink}">
 	{block:Description}<meta name="description" content="{MetaDescription}">{/block:Description}
 	<meta name="title" content="{block:SearchPage}Search results for: {SearchQuery}{/block:SearchPage}{block:PostSummary}{PostSummary} | {/block:PostSummary}{block:PostTitle}{PostTitle} - {/block:PostTitle}{Title}">
 	<meta name="generator" content="Katie Harron (pibby.com)">
@@ -34,10 +34,6 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 	<meta name="text:LinkedIn Username" content="">
 	<meta name="text:Instagram Username" content="">
 	<meta name="text:Google Analytics ID" content="">
-	<meta name="text:Google Site Verification" content="">
-	{block:IfGoogleSiteVerification}<meta name="google-site-verification" content="{text:Google Site Verification}">{/block:IfGoogleSiteVerification}
-	<meta name="text:Pinterest Site Verification" content="">
-    {block:IfPinterestSiteVerification}<meta name="p:domain_verify" content="{text:Pinterest Site Verification}"/>{/block:IfPinterestSiteVerification}
 
 	<title>{block:PostSummary}{PostSummary} | {/block:PostSummary}{block:SearchPage}{lang:Search results for SearchQuery} | {/block:SearchPage}{block:TagPage}{Tag} | {/block:TagPage}{block:DayPage}{lang:Posted on DayOfMonth Month Year} | {/block:DayPage}{Title}</title>
 
