@@ -208,7 +208,7 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 
 	{block:Photo}
 		<figure class="post-photo">
-			<a href="{PhotoURL-HighRes}"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" alt="{PhotoAlt}" /></a>
+			{LinkOpenTag}<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" alt="{PhotoAlt}" />{LinkCloseTag}
 			<!-- Fallback for non JavaScript browsers -->
 			<noscript><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></noscript>
 		</figure>
@@ -222,7 +222,7 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 
 	{block:Panorama}
 		<figure class="post-panorama">
-			<a href="{PhotoURL-Panorama}"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-Panorama}" alt="{PhotoAlt}" /></a>
+			{LinkOpenTag}<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-Panorama}" alt="{PhotoAlt}" />{LinkCloseTag}
 			<!-- Fallback for non JavaScript browsers -->
 			<noscript><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></noscript>
 		</figure>
@@ -237,7 +237,7 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 		<figure class="post-photoset">
 			<div class="photoset-grid" data-layout="{PhotosetLayout}" data-id="photoset{PostID}">
 		    {block:Photos}
-		      <a href="{PhotoURL-HighRes}"><img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" {block:Caption}alt="{Caption}"{/block:caption} /></a>
+		      {LinkOpenTag}<img src="data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==" data-src-small="{PhotoURL-250}" data-src-medium="{PhotoURL-500}" data-src-large="{PhotoURL-HighRes}" {block:Caption}alt="{Caption}"{/block:caption} />{LinkCloseTag}
 		      <!-- Fallback for non JavaScript browsers -->
 		      <noscript><img src="{PhotoURL-500}" alt="{PhotoAlt}" /></noscript>
 		    {/block:Photos}
