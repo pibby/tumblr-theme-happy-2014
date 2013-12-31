@@ -3,14 +3,18 @@
 
 # TEAM
 
-    Katie Harron        -- Front-end Developer   
+    Katie Harron        -- Front-end Developer
+                        -- http://www.pibby.com
+                        -- http://www.twitter.com/pibby
                         -- https://www.vizify.com/katie-harron/
 
 # THANKS
 
+    [Photoset Grid by Style Hatch](http://stylehatch.github.io/photoset-grid/)
+
+    [bLazy.js](http://dinbror.dk/blog/blazy/)
     
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
-    jQuery
+    HTML5, CSS3, Javascript, jQuery

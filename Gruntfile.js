@@ -54,7 +54,7 @@ module.exports = function(grunt) {
                     spawn: false,
                     event: ['added', 'deleted', 'changed']
                 },
-        		files: ['images/*.{png,jpg,gif}'],
+        		files: ['img/*.{png,jpg,gif}'],
         		tasks: ['imagemin']
         	},
             styles: {
