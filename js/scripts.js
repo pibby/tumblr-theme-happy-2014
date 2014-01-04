@@ -44,13 +44,3 @@ $('.photoset-grid').photosetGrid({
   rel: $('.photoset-grid').attr('data-id'),
   gutter: '5px'
 });
-// Add titles to photos, photosets, video, audio
-$(".post").each(
-    function(){
-    var a=$(this).find(".post-inner > p > strong").first().text();
-    if (a != ""){
-        var b=$(this).find(".date > a").attr("href");
-        $(this).find("div.post-inner").prepend("<h1><a href='"+b+"'>"+a+"</a></h1>"); 
-        $(this).find(".post-inner > p").first().remove();
-    }
-});

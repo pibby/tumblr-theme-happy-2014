@@ -3,7 +3,7 @@
 <!--
 
 Theme: Happy 2014
-Updated: December 29, 2013
+Updated: January 3, 2013
 Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 
 -->
@@ -60,7 +60,7 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 		<script src="http://static.tumblr.com/ysbclnq/JSkmylhv3/respond.min.js"></script>
 	<![endif]-->
 
-	<link rel="stylesheet" href="http://static.tumblr.com/ysbclnq/hROmynq6h/style.css">
+	<link rel="stylesheet" href="http://static.tumblr.com/ysbclnq/Hpxmyv37a/style.css">
 
 	<!-- custom CSS -->
     <style>
@@ -334,7 +334,20 @@ Created on December 29, 2013 by Katie Harron (pibby.tumblr.com)
 <!-- Grab Google CDN's jQuery, with a protocol relative URL; fall back to local if offline -->
 <script src="//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
 <script>window.jQuery || document.write('<script src="http://static.tumblr.com/ysbclnq/KLBmylomj/jquery.min.js"><\/script>')</script>
-<script src="http://static.tumblr.com/ysbclnq/Wrymyn58c/scripts.js"></script>
+<script src="http://static.tumblr.com/ysbclnq/oVJmyv2uc/scripts.js"></script>
+
+<!-- Add titles to photos, photosets, video, audio -->
+<script>
+$(".post").each(
+    function(){
+    var a=$(this).find(".post-inner > p:first > strong").text();
+    if (a != ""){
+        var b=$(this).find(".date > a").attr("href");
+        $(this).find("div.post-inner").prepend("<h1><a href='"+b+"'>"+a+"</a></h1>"); 
+        $(this).find(".post-inner > p:first").remove();
+    }
+});
+</script>
 
 <!-- Google Analytics -->
 {block:IfGoogleAnalyticsID}
