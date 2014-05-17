@@ -44,3 +44,10 @@ $('.photoset-grid').photosetGrid({
   rel: $('.photoset-grid').attr('data-id'),
   gutter: '5px'
 });
+// Responsive Tumblr Videos
+var videoWrappers = document.getElementsByClassName('post-video');
+[].forEach.call( videoWrappers, function (el, i) {
+	var width = el.getElementsByTagName('iframe')[0].width,
+    height = el.getElementsByTagName('iframe')[0].height;
+    el.style.paddingBottom = height / width * 100 + '%';
+});
